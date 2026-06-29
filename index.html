@@ -1,0 +1,942 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhuvanesh Thummalapenta - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body tabindex="0">
+  <canvas id="tech-background" aria-hidden="true"></canvas>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark flex-lg-column align-items-center">
+    <div class="container-fluid flex-lg-column align-items-center h-100 py-lg-4 px-lg-3">
+
+      <!-- Mobile Brand -->
+      <a class="navbar-brand d-lg-none text-gradient" href="#hero-section">Bhuvanesh</a>
+
+      <!-- Desktop Profile Image -->
+      <div class="text-center d-none d-lg-block mb-4">
+        <img src="https://via.placeholder.com/150/0a0a0f/8b5cf6?text=B" alt="Bhuvanesh"
+          class="profile-image-nav rounded-circle shadow-lg mb-3">
+        <h5 class="text-main fw-bold mb-1">Bhuvanesh T.</h5>
+        <small class="text-muted">Aspiring Developer</small>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse w-100 mt-lg-4" id="navbarNav">
+        <ul class="navbar-nav flex-column w-100 text-center text-lg-start px-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero-section"><i class="fa-solid fa-house me-2"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section"><i class="fa-solid fa-user me-2"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills-section"><i class="fa-solid fa-code me-2"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services-section"><i class="fa-solid fa-laptop-code me-2"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects-section"><i class="fa-solid fa-briefcase me-2"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog-section"><i class="fa-solid fa-newspaper me-2"></i> Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#achievements-section"><i class="fa-solid fa-trophy me-2"></i> Achievements</a>
+          </li>
+          <li class="nav-item mt-lg-auto pt-lg-4">
+            <a class="nav-link" href="#contact-section"><i class="fa-solid fa-envelope me-2"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section id="hero-section" class="section-container">
+      <div class="row align-items-center">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+          <h5 class="section-subtitle mb-2">Welcome to my portfolio</h5>
+          <h1 class="display-3 fw-bold mb-3">Hi, I'm <br><span class="text-gradient">Bhuvanesh Thummalapenta</span></h1>
+
+          <div class="hero-subtitle mb-4">
+            I am a <span id="typing-element" class="typing-text fw-bold"></span>
+          </div>
+
+          <p class="lead text-muted mb-5" style="max-width: 600px;">
+            Building scalable web applications with MERN stack, Node.js, and AI-driven solutions.
+          </p>
+
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#projects-section" class="btn btn-custom btn-primary-custom">View Projects</a>
+            <a href="Resume_Bhuvanesh.pdf" download="Resume_Bhuvanesh.pdf" class="btn btn-custom">Download Resume</a>
+            <a href="#contact-section" class="btn btn-custom">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">Discover</h5>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="row mt-5">
+          <div class="col-lg-7 mb-4">
+            <div class="glass-panel p-4 p-md-5 h-100">
+              <p class="fs-5 text-muted lh-lg">
+                I am an AIML student passionate about MERN stack development and AI-driven applications. I focus on
+                building scalable full-stack web applications using MongoDB, Express, React, and Node.js while exploring
+                AI, NLP, and large language models.
+              </p>
+              <div class="about-stats mt-5">
+                <div class="stat-card">
+                  <div class="stat-number">3rd</div>
+                  <div class="stat-label">Year AIML Student</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-number">8.9</div>
+                  <div class="stat-label">CGPA</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-number text-gradient">5+</div>
+                  <div class="stat-label">Projects Completed</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 mb-4">
+            <div class="glass-panel p-4 h-100 d-flex flex-column justify-content-center">
+              <ul class="list-unstyled mb-0">
+                <li class="mb-4">
+                  <div class="fw-bold text-main fs-5 mb-1"><i class="fa-solid fa-graduation-cap text-gradient me-2"></i>
+                    Education</div>
+                  <div class="text-muted ms-4 pl-2">Sreyas Institute of Engineering & Technology<br>(B.Tech AIML)</div>
+                </li>
+                <li class="mb-4">
+                  <div class="fw-bold text-main fs-5 mb-1"><i class="fa-solid fa-briefcase text-gradient me-2"></i>
+                    Experience</div>
+                  <div class="text-muted ms-4 pl-2">Fresher</div>
+                </li>
+                <li class="mb-4">
+                  <div class="fw-bold text-main fs-5 mb-1"><i class="fa-solid fa-certificate text-gradient me-2"></i>
+                    Certification</div>
+                  <div class="text-muted ms-4 pl-2">Oracle AI Foundations</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">My Expertise</h5>
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="row mt-5">
+          <!-- Left Column -->
+          <div class="col-md-6 mb-5">
+            <div class="skill-category">
+              <h4><i class="fa-brands fa-html5 me-2"></i>Frontend Development</h4>
+
+              <div class="skill-label"><span>JavaScript / HTML / CSS</span><span>90%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="90%"></div>
+              </div>
+
+              <div class="skill-label"><span>React.js / Next.js</span><span>85%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+
+              <div class="skill-label"><span>Tailwind CSS / Bootstrap</span><span>80%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-category mt-5">
+              <h4><i class="fa-solid fa-code me-2"></i>Programming</h4>
+
+              <div class="skill-label"><span>JavaScript</span><span>85%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+
+              <div class="skill-label"><span>Java (DSA)</span><span>75%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="75%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-6 mb-5">
+            <div class="skill-category">
+              <h4><i class="fa-solid fa-server me-2"></i>Backend Development</h4>
+
+              <div class="skill-label"><span>Node.js</span><span>80%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="80%"></div>
+              </div>
+
+              <div class="skill-label"><span>Express.js</span><span>75%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-category mt-5">
+              <h4><i class="fa-solid fa-database me-2"></i>Database</h4>
+
+              <!-- Visually highlighted MongoDB -->
+              <div class="skill-label text-gradient fw-bold fs-5"><span>MongoDB (Primary)</span><span>90%</span></div>
+              <div class="skill-bar-container" style="box-shadow: var(--glow-purple);">
+                <div class="skill-bar" data-width="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-category mt-5">
+              <h4><i class="fa-solid fa-brain me-2"></i>AI / ML</h4>
+
+              <div class="skill-label"><span>Prompt Engineering</span><span>80%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="80%"></div>
+              </div>
+
+              <div class="skill-label"><span>Machine Learning</span><span>70%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="70%"></div>
+              </div>
+
+              <div class="skill-label"><span>NLP</span><span>65%</span></div>
+              <div class="skill-bar-container">
+                <div class="skill-bar" data-width="65%"></div>
+              </div>
+            </div>
+
+            <div class="skill-category mt-4">
+              <h4><i class="fa-solid fa-toolbox me-2"></i>Other Tools</h4>
+              <div class="d-flex flex-wrap gap-2 mt-3">
+                <span class="badge bg-secondary px-3 py-2 fs-6">Git</span>
+                <span class="badge bg-secondary px-3 py-2 fs-6">GitHub</span>
+                <span class="badge bg-secondary px-3 py-2 fs-6">AWS Basics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">What I Do</h5>
+        <h2 class="section-title">My Services</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mt-4">
+
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-panel service-card">
+              <i class="fa-solid fa-layer-group service-icon"></i>
+              <h4 class="mb-3">MERN Stack Development</h4>
+              <p class="text-muted">Building scalable full-stack web apps using MongoDB, Express, React, and Node.js.
+              </p>
+            </div>
+          </div>
+
+          <div class="col" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-panel service-card">
+              <i class="fa-solid fa-mobile-screen-button service-icon"></i>
+              <h4 class="mb-3">Frontend Development</h4>
+              <p class="text-muted">Creating responsive and modern interfaces tailored to user experience.</p>
+            </div>
+          </div>
+
+          <div class="col" data-aos="fade-up" data-aos-delay="300">
+            <div class="glass-panel service-card">
+              <i class="fa-solid fa-network-wired service-icon"></i>
+              <h4 class="mb-3">Backend API Development</h4>
+              <p class="text-muted">Building scalable REST APIs with Node.js and Express.</p>
+            </div>
+          </div>
+
+          <div class="col" data-aos="fade-up" data-aos-delay="400">
+            <div class="glass-panel service-card">
+              <i class="fa-solid fa-database service-icon"></i>
+              <h4 class="mb-3">Database Architecture</h4>
+              <p class="text-muted">Designing MongoDB schemas and optimized backend structures.</p>
+            </div>
+          </div>
+
+          <div class="col" data-aos="fade-up" data-aos-delay="500">
+            <div class="glass-panel service-card">
+              <i class="fa-solid fa-brain service-icon"></i>
+              <h4 class="mb-3">AI-Powered Solutions</h4>
+              <p class="text-muted">Integrating AI models, NLP systems, and intelligent automation into applications.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">Portfolio</h5>
+        <h2 class="section-title">My Recent Projects</h2>
+
+        <div class="row row-cols-1 row-cols-lg-2 g-5 mt-4">
+
+          <!-- Project 1 -->
+          <div class="col" data-aos="fade-up">
+            <div class="glass-panel project-card h-100">
+              <div class="project-img-wrapper">
+                <img src="https://via.placeholder.com/800x400/1e1e2d/8b5cf6?text=ERP+Management+System"
+                  class="project-img" alt="ERP System">
+              </div>
+              <div class="project-content">
+                <h3 class="mb-3">ERP Management System</h3>
+                <p class="text-muted">A complete academic ERP system for managing students, attendance, marks, and
+                  dashboards.</p>
+                <div class="tech-stack">
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">Node.js</span>
+                  <span class="tech-badge">MongoDB</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/TBhuvanesh/college-erp" class="project-link" title="GitHub Repository"><i
+                      class="fa-brands fa-github"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-panel project-card h-100">
+              <div class="project-img-wrapper">
+                <img src="https://via.placeholder.com/800x400/1e1e2d/3b82f6?text=Cricket+Score+Simulator"
+                  class="project-img" alt="Cricket Score Simulator">
+              </div>
+              <div class="project-content">
+                <h3 class="mb-3">Cricket Score Simulator</h3>
+                <p class="text-muted">A live cricket simulation platform that predicts and displays match outcomes
+                  dynamically based on custom logic.</p>
+                <div class="tech-stack">
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">MongoDB</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="project-link" title="Live Demo"><i
+                      class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col" data-aos="fade-up">
+            <div class="glass-panel project-card h-100">
+              <div class="project-img-wrapper">
+                <img src="https://via.placeholder.com/800x400/1e1e2d/8b5cf6?text=Hallucination+Detection"
+                  class="project-img" alt="Hallucination Detection">
+              </div>
+              <div class="project-content">
+                <h3 class="mb-3">Hallucination Detection in LLMs</h3>
+                <p class="text-muted">A research-oriented AI project focused on detecting hallucinations in large
+                  language models using semantic entropy.</p>
+                <div class="tech-stack">
+                  <span class="tech-badge">Machine Learning</span>
+                  <span class="tech-badge">NLP</span>
+                  <span class="tech-badge">FAISS</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/TBhuvanesh/LLM-Hallucination-Detection-System" class="project-link"
+                    title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-panel project-card h-100">
+              <div class="project-img-wrapper">
+                <img src="https://via.placeholder.com/800x400/1e1e2d/3b82f6?text=Career+Guidance+Website"
+                  class="project-img" alt="Career Guidance Website">
+              </div>
+              <div class="project-content">
+                <h3 class="mb-3">Career Guidance Website</h3>
+                <p class="text-muted">A roadmap platform for students to explore career opportunities and learning
+                  paths.</p>
+                <div class="tech-stack">
+                  <span class="tech-badge">HTML</span>
+                  <span class="tech-badge">CSS</span>
+                  <span class="tech-badge">Bootstrap</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/TBhuvanesh/web-development-journey/tree/main/03-bootstrap"
+                    class="project-link" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col" data-aos="fade-up">
+            <div class="glass-panel project-card h-100">
+              <div class="project-img-wrapper">
+                <img src="https://via.placeholder.com/800x400/1e1e2d/8b5cf6?text=Portfolio+Website" class="project-img"
+                  alt="Portfolio Website">
+              </div>
+              <div class="project-content">
+                <h3 class="mb-3">Portfolio Website</h3>
+                <p class="text-muted">A modern developer portfolio showcasing my skills, projects, achievements, and
+                  blogs.</p>
+                <div class="tech-stack">
+                  <span class="tech-badge">HTML</span>
+                  <span class="tech-badge">CSS</span>
+                  <span class="tech-badge">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">Insights</h5>
+        <h2 class="section-title">Latest Articles</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mt-4">
+
+          <!-- Blog 1 -->
+          <div class="col" data-aos="zoom-in" data-aos-delay="100">
+            <div class="glass-panel blog-card">
+              <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=2000&auto=format&fit=crop"
+                class="blog-img" alt="MongoDB">
+              <div class="p-4">
+                <h5 class="mb-3">Why MongoDB is powerful for modern applications</h5>
+                <p class="text-muted small">Exploring document databases and their scalability benefits in full-stack
+                  architecture.</p>
+                <button type="button" onclick="openBlogModal(1)"
+                  class="btn btn-sm btn-outline-light rounded-pill mt-2">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 2 -->
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+            <div class="glass-panel blog-card">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2000&auto=format&fit=crop"
+                class="blog-img" alt="MERN Stack">
+              <div class="p-4">
+                <h5 class="mb-3">MERN Stack vs Traditional Full Stack</h5>
+                <p class="text-muted small">A comparative analysis of modern JS-based stacks against traditional MVC
+                  frameworks.</p>
+                <button type="button" onclick="openBlogModal(2)"
+                  class="btn btn-sm btn-outline-light rounded-pill mt-2">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 3 -->
+          <div class="col" data-aos="zoom-in" data-aos-delay="300">
+            <div class="glass-panel blog-card">
+              <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2000&auto=format&fit=crop"
+                class="blog-img" alt="React vs Next.js">
+              <div class="p-4">
+                <h5 class="mb-3">React vs Next.js: Which one to choose?</h5>
+                <p class="text-muted small">Understanding Server-Side Rendering (SSR) vs Client-Side Rendering (CSR) for
+                  modern web apps.</p>
+                <button type="button" onclick="openBlogModal(3)"
+                  class="btn btn-sm btn-outline-light rounded-pill mt-2">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 4 -->
+          <div class="col" data-aos="zoom-in" data-aos-delay="400">
+            <div class="glass-panel blog-card">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2000&auto=format&fit=crop"
+                class="blog-img" alt="AI in Web Dev">
+              <div class="p-4">
+                <h5 class="mb-3">How AI is changing web development</h5>
+                <p class="text-muted small">A look into AI pair programmers, automated testing, and intelligent
+                  application features.</p>
+                <button type="button" onclick="openBlogModal(4)"
+                  class="btn btn-sm btn-outline-light rounded-pill mt-2">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 5 -->
+          <div class="col" data-aos="zoom-in" data-aos-delay="500">
+            <div class="glass-panel blog-card">
+              <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2000&auto=format&fit=crop"
+                class="blog-img" alt="LLM Hallucinations">
+              <div class="p-4">
+                <h5 class="mb-3">Understanding hallucinations in LLMs</h5>
+                <p class="text-muted small">An deep dive into why Large Language Models confidently output false
+                  information.</p>
+                <button type="button" onclick="openBlogModal(5)"
+                  class="btn btn-sm btn-outline-light rounded-pill mt-2">Read More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">Milestones</h5>
+        <h2 class="section-title">My Achievements</h2>
+
+        <div class="row mt-5">
+          <div class="col-lg-8">
+            <div class="glass-panel p-4 p-md-5">
+              <div class="timeline">
+
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+                  <h4 class="text-main mb-1">Runner-Up in Ideathon</h4>
+                  <p class="text-muted mb-2"><small>Cricket Score Simulator</small></p>
+                  <p class="text-muted">Secured the runner-up position for building an innovative cricket score
+                    simulator during the regional Ideathon event.</p>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                  <h4 class="text-main mb-1">Oracle AI Foundations</h4>
+                  <p class="text-muted mb-2"><small>Professional Certification</small></p>
+                  <p class="text-muted">Successfully achieved the Oracle AI Foundations certification, solidifying my
+                    theoretical knowledge in Artificial Intelligence.</p>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+                  <h4 class="text-main mb-1">3rd Place in Codethon</h4>
+                  <p class="text-muted mb-2"><small>Programming Competition</small></p>
+                  <p class="text-muted">Demonstrated exceptional algorithmic and problem-solving skills to secure 3rd
+                    place in the state-level Codethon.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="section-container">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h5 class="section-subtitle">Get in Touch</h5>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="row mt-5 g-5 justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div class="contact-info-card glass-panel" data-aos="fade-right" data-aos-delay="100">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h5 class="mb-1">Email</h5>
+                <p class="text-muted mb-0">bhuvaneshthummalapenta@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-info-card glass-panel" data-aos="fade-right" data-aos-delay="200">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h5 class="mb-1">Phone</h5>
+                <p class="text-muted mb-0">+91 81793 46447</p>
+              </div>
+            </div>
+
+            <div class="contact-info-card glass-panel" data-aos="fade-right" data-aos-delay="300">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <h5 class="mb-1">GitHub</h5>
+                <a href="https://github.com/TBhuvanesh" class="text-muted text-decoration-none">github.com/bhuvanesh</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card glass-panel" data-aos="fade-right" data-aos-delay="400">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div>
+                <h5 class="mb-1">LinkedIn</h5>
+                <a href="https://www.linkedin.com/in/bhuvanesh-thummalapenta-491b65290"
+                  class="text-muted text-decoration-none">linkedin.com/in/bhuvanesh</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="text-muted mb-0">&copy; 2026 Bhuvanesh Thummalapenta. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Blog Modal -->
+    <div id="blogModal" class="blog-modal-overlay">
+      <div class="blog-modal-content">
+        <button class="blog-modal-close" onclick="closeBlogModal()">&times;</button>
+        <img id="blogModalImg" src="" alt="Blog Image" class="blog-modal-img">
+        <div class="blog-modal-body">
+          <h3 id="blogModalTitle" class="mb-4"></h3>
+          <div id="blogModalText" class="text-muted lh-lg"></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FontAwesome Scripts -->
+  <script src="https://kit.fontawesome.com/a32318943c.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom JS Scripts -->
+  <script>
+    // Subtle tech particle background
+    const backgroundCanvas = document.getElementById('tech-background');
+    const backgroundCtx = backgroundCanvas.getContext('2d');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let backgroundParticles = [];
+    let animationFrameId;
+    let canvasWidth = 0;
+    let canvasHeight = 0;
+
+    function getParticleCount() {
+      if (window.innerWidth < 576) return 34;
+      if (window.innerWidth < 992) return 48;
+      return 76;
+    }
+
+    function resizeBackgroundCanvas() {
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      canvasWidth = window.innerWidth;
+      canvasHeight = window.innerHeight;
+      backgroundCanvas.width = canvasWidth * dpr;
+      backgroundCanvas.height = canvasHeight * dpr;
+      backgroundCanvas.style.width = `${canvasWidth}px`;
+      backgroundCanvas.style.height = `${canvasHeight}px`;
+      backgroundCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      createBackgroundParticles();
+    }
+
+    function createBackgroundParticles() {
+      const particleCount = getParticleCount();
+      backgroundParticles = Array.from({ length: particleCount }, () => ({
+        x: Math.random() * canvasWidth,
+        y: Math.random() * canvasHeight,
+        vx: (Math.random() - 0.5) * 0.35,
+        vy: (Math.random() - 0.5) * 0.35,
+        radius: Math.random() * 1.8 + 0.8,
+        hue: Math.random() > 0.5 ? 260 : 215
+      }));
+    }
+
+    function drawBackgroundGrid() {
+      const gridSize = window.innerWidth < 576 ? 70 : 90;
+      backgroundCtx.save();
+      backgroundCtx.strokeStyle = 'rgba(139, 92, 246, 0.045)';
+      backgroundCtx.lineWidth = 1;
+
+      for (let x = 0; x <= canvasWidth; x += gridSize) {
+        backgroundCtx.beginPath();
+        backgroundCtx.moveTo(x, 0);
+        backgroundCtx.lineTo(x, canvasHeight);
+        backgroundCtx.stroke();
+      }
+
+      for (let y = 0; y <= canvasHeight; y += gridSize) {
+        backgroundCtx.beginPath();
+        backgroundCtx.moveTo(0, y);
+        backgroundCtx.lineTo(canvasWidth, y);
+        backgroundCtx.stroke();
+      }
+
+      backgroundCtx.restore();
+    }
+
+    function animateBackground() {
+      backgroundCtx.clearRect(0, 0, canvasWidth, canvasHeight);
+      drawBackgroundGrid();
+
+      for (let i = 0; i < backgroundParticles.length; i++) {
+        const particle = backgroundParticles[i];
+        particle.x += particle.vx;
+        particle.y += particle.vy;
+
+        if (particle.x < -20) particle.x = canvasWidth + 20;
+        if (particle.x > canvasWidth + 20) particle.x = -20;
+        if (particle.y < -20) particle.y = canvasHeight + 20;
+        if (particle.y > canvasHeight + 20) particle.y = -20;
+
+        const gradient = backgroundCtx.createRadialGradient(
+          particle.x,
+          particle.y,
+          0,
+          particle.x,
+          particle.y,
+          particle.radius * 7
+        );
+        gradient.addColorStop(0, `hsla(${particle.hue}, 90%, 68%, 0.26)`);
+        gradient.addColorStop(1, `hsla(${particle.hue}, 90%, 68%, 0)`);
+
+        backgroundCtx.fillStyle = gradient;
+        backgroundCtx.beginPath();
+        backgroundCtx.arc(particle.x, particle.y, particle.radius * 7, 0, Math.PI * 2);
+        backgroundCtx.fill();
+
+        backgroundCtx.fillStyle = `hsla(${particle.hue}, 95%, 72%, 0.42)`;
+        backgroundCtx.beginPath();
+        backgroundCtx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+        backgroundCtx.fill();
+
+        for (let j = i + 1; j < backgroundParticles.length; j++) {
+          const other = backgroundParticles[j];
+          const dx = particle.x - other.x;
+          const dy = particle.y - other.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+          const maxDistance = window.innerWidth < 576 ? 95 : 125;
+
+          if (distance < maxDistance) {
+            const opacity = (1 - distance / maxDistance) * 0.16;
+            backgroundCtx.strokeStyle = `rgba(96, 165, 250, ${opacity})`;
+            backgroundCtx.lineWidth = 1;
+            backgroundCtx.beginPath();
+            backgroundCtx.moveTo(particle.x, particle.y);
+            backgroundCtx.lineTo(other.x, other.y);
+            backgroundCtx.stroke();
+          }
+        }
+      }
+
+      if (!prefersReducedMotion.matches) {
+        animationFrameId = requestAnimationFrame(animateBackground);
+      }
+    }
+
+    window.addEventListener('resize', resizeBackgroundCanvas);
+    resizeBackgroundCanvas();
+    animateBackground();
+
+    const handleMotionPreferenceChange = () => {
+      cancelAnimationFrame(animationFrameId);
+      resizeBackgroundCanvas();
+      animateBackground();
+    };
+
+    if (prefersReducedMotion.addEventListener) {
+      prefersReducedMotion.addEventListener('change', handleMotionPreferenceChange);
+    } else {
+      prefersReducedMotion.addListener(handleMotionPreferenceChange);
+    }
+
+    // Initialize AOS
+    AOS.init({
+      once: true,
+      offset: 50,
+    });
+
+    // Typing Effect Script
+    const texts = ["MERN Stack Developer", "Full Stack Developer", "AIML Student"];
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let isDeleting = false;
+    const typeElement = document.getElementById("typing-element");
+
+    function type() {
+      if (count === texts.length) {
+        count = 0;
+      }
+      currentText = texts[count];
+
+      if (isDeleting) {
+        typeElement.textContent = currentText.slice(0, --index);
+      } else {
+        typeElement.textContent = currentText.slice(0, ++index);
+      }
+
+      let typeSpeed = 100;
+      if (isDeleting) { typeSpeed /= 2; }
+
+      if (!isDeleting && index === currentText.length) {
+        typeSpeed = 2000; // Pause at end of text
+        isDeleting = true;
+      } else if (isDeleting && index === 0) {
+        isDeleting = false;
+        count++;
+        typeSpeed = 500; // Pause before new text
+      }
+
+      setTimeout(type, typeSpeed);
+    }
+
+    // Start typing effect on load
+    document.addEventListener("DOMContentLoaded", () => {
+      setTimeout(type, 1000);
+    });
+
+    // Animate Skill Bars on Scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bar = entry.target;
+          bar.style.width = bar.getAttribute('data-width');
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.skill-bar').forEach(bar => {
+      observer.observe(bar);
+    });
+
+    // Sidebar Navigation Active State Logic
+    const sections = document.querySelectorAll('.section-container');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    const navObserverOptions = {
+      root: null,
+      rootMargin: '-50% 0px -50% 0px',
+      threshold: 0
+    };
+
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => link.classList.remove('active'));
+          const activeId = entry.target.id;
+          const activeLink = document.querySelector(`.nav-link[href="#${activeId}"]`);
+          if (activeLink) {
+            activeLink.classList.add('active');
+          }
+        }
+      });
+    }, navObserverOptions);
+
+    sections.forEach(section => {
+      navObserver.observe(section);
+    });
+
+    // Blog Modal Logic
+    const blogData = {
+      1: {
+        title: "Why MongoDB is powerful for modern applications",
+        image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=2000&auto=format&fit=crop",
+        content: "<p>MongoDB is a NoSQL, document-oriented database that offers high performance, high availability, and easy scalability. Unlike traditional relational databases, MongoDB stores data in flexible, JSON-like documents. This means fields can vary from document to document and data structure can be changed over time.</p><p>For modern web applications, especially those built with the MERN stack, MongoDB provides an incredibly flexible architecture. Developers can easily map their application objects directly to the database without the need for complex ORMs. Furthermore, its built-in sharding and replication ensure that as your application grows, your database can scale horizontally without breaking a sweat.</p>"
+      },
+      2: {
+        title: "MERN Stack vs Traditional Full Stack",
+        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2000&auto=format&fit=crop",
+        content: "<p>The traditional full-stack (like LAMP - Linux, Apache, MySQL, PHP) has powered the web for decades. However, the MERN stack (MongoDB, Express.js, React, Node.js) has emerged as the modern alternative.</p><p>The primary advantage of the MERN stack is that it allows developers to write the entire application (frontend, backend, database queries) in a single language: JavaScript. This reduces context switching, allows for better code reuse, and unifies the development team. React's component-based architecture ensures a highly interactive UI, while Node.js offers a non-blocking, event-driven backend perfect for handling concurrent requests.</p>"
+      },
+      3: {
+        title: "React vs Next.js: Which one to choose?",
+        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2000&auto=format&fit=crop",
+        content: "<p>React is a powerful library for building user interfaces, but it is primarily designed for Client-Side Rendering (CSR). This means the browser has to download the JavaScript bundle before it can render the page, which can impact SEO and initial load times.</p><p>Next.js is a framework built on top of React that solves these issues. It offers out-of-the-box support for Server-Side Rendering (SSR) and Static Site Generation (SSG). If you are building a simple Dashboard or a Single Page Application (SPA), React might be enough. But if you need great SEO, fast initial page loads, and built-in routing, Next.js is the clear winner for modern production applications.</p>"
+      },
+      4: {
+        title: "How AI is changing web development",
+        image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2000&auto=format&fit=crop",
+        content: "<p>Artificial Intelligence is no longer just a buzzword; it's actively reshaping how developers build web applications. From AI-assisted coding tools like GitHub Copilot to intelligent design-to-code generators, the development workflow is becoming faster and more efficient.</p><p>Beyond development tools, AI is also enhancing the user experience. Features like personalized content recommendations, intelligent chatbots, and automated accessibility improvements are becoming standard. As developers, integrating AI APIs (like OpenAI or Hugging Face) into our applications is a crucial skill for building the next generation of intelligent web experiences.</p>"
+      },
+      5: {
+        title: "Understanding hallucinations in LLMs",
+        image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2000&auto=format&fit=crop",
+        content: "<p>Large Language Models (LLMs) like GPT-4 are incredibly capable, but they suffer from a phenomenon known as 'hallucinations'. A hallucination occurs when the model confidently generates information that is factually incorrect or nonsensical.</p><p>This happens because LLMs are fundamentally predictive text engines; they predict the next most likely word based on their training data, rather than verifying facts against a database. Understanding and mitigating hallucinations—through techniques like Retrieval-Augmented Generation (RAG), prompt engineering, and semantic entropy—is a critical area of research for safely deploying AI in real-world applications.</p>"
+      }
+    };
+
+    const blogModal = document.getElementById('blogModal');
+    const blogModalTitle = document.getElementById('blogModalTitle');
+    const blogModalImg = document.getElementById('blogModalImg');
+    const blogModalText = document.getElementById('blogModalText');
+
+    function openBlogModal(id) {
+      const data = blogData[id];
+      if (data) {
+        blogModalTitle.textContent = data.title;
+        blogModalImg.src = data.image;
+        blogModalText.innerHTML = data.content;
+        blogModal.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling
+      }
+    }
+
+    function closeBlogModal() {
+      blogModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // Close when clicking outside content
+    blogModal.addEventListener('click', function (e) {
+      if (e.target === blogModal) {
+        closeBlogModal();
+      }
+    });
+
+  </script>
+</body>
+
+</html>
